@@ -1,0 +1,52 @@
+{
+	"AUTH": {
+		"LOGIN_URL": "http://api.stg2-miimetiq.celsagroup.com/authn/login",
+		"LOGOUT_URL": "http://api.stg2-miimetiq.celsagroup.com/authn/logout",
+		"INFO_URL": "http://api.stg2-miimetiq.celsagroup.com/authn/info"
+	},
+	"DEVICES": {
+		"DEVICES_URL": "http://api.stg2-miimetiq.celsagroup.com/assets/devices"
+	},
+	"PROCESS_MAPS": {
+		"DATA_URL": "http://api.stg2-miimetiq.celsagroup.com/assets/processMap"
+	},
+	"DEMUX": {
+		"DEMUX_URL": "http://api.stg2-miimetiq.celsagroup.com/assets/miimetiq-demux",
+		"DEMUX_ID": "5e2f045932bfc1002731a8cc",
+		"INFO_URL": "http://api.stg2-miimetiq.celsagroup.com/authn/info"
+	},
+	"READINGS": {
+		"READINGS_URL": "http://api.stg2-miimetiq.celsagroup.com/timeseries/influx/query",
+		"AUTH": "Basic ZWxvcmVzOmNlbHNhMjAxOQ=="
+	},
+	"FILES": {
+		"FILE_HOST": "http://localhost:3001",
+		"URL_FILE_LIST": "http://localhost:3001/filesList",
+		"URL_UPLOAD": "http://localhost:3001/upload",
+		"URL_DELETE": "http://localhost:3001/delete"
+	},
+	"HOME": {
+		"REALTIME_URL": "http://s006-0294.celsagroup.com:5000/api/home/monitor",
+		"PRODUCTION_URL": "http://s006-0294.celsagroup.com:5000/api/Home/Production",
+		"RESOURCE_CONSUMPTION_URL": "http://s006-0294.celsagroup.com:5000/api/Home/ConsumptionByResource",
+		"ELECTRIC_DETAIL_URL": "http://s006-0294.celsagroup.com:5000/api/Home/ElectricDetail"
+	},
+	"ENGINEERING_REPORT": {
+		"DATA_URL": "http://s006-0294.celsagroup.com:5000/api/Engineering/Report"
+	},
+	"PRODUCTION": {
+		"SCHEMA_URL": "http://api.stg2-miimetiq.celsagroup.com/schemas/production"
+	},
+	"MANAGEMENT_REPORTS": {
+		"DAILY": "http://s006-0294.celsagroup.com:5000/api/managementreport/day",
+		"DAILY_PRODUCTION": "http://s006-0294.celsagroup.com:5000/api/managementreport/active/day",
+		"DAILY_HALT": "http://s006-0294.celsagroup.com:5000/api/managementreport/halt/day",
+		"PERIOD": "http://s006-0294.celsagroup.com:5000/api/managementreport/period",
+		"PRODUCTION_PERIOD": "http://s006-0294.celsagroup.com:5000/api/managementreport/active/period",
+		"HALT_PERIOD": "http://s006-0294.celsagroup.com:5000/api/managementreport/halt/period"
+	},
+	"PRODUCTS": {
+		"ALL": "http://s006-0294.celsagroup.com:5000/api/Products/All",
+		"TYPE_URL": "http://s006-0294.celsagroup.com:5000/api/Products/Type"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"extends": [
+		"react-app",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier/@typescript-eslint",
+		"prettier/react",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["react", "@typescript-eslint", "prettier"],
+	"env": {
+		"browser": true,
+		"jasmine": true,
+		"jest": true,
+		"es6": true
+	},
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"react/prop-types": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"no-console": "off",
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": true,
+				"semi": false
+			}
+		]
+	},
+	"settings": {
+		"react": {
+			"pragma": "React",
+			"version": "detect"
+		}
+	},
+	"parser": "@typescript-eslint/parser"
+}

@@ -1,0 +1,27 @@
+{
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"javascript.format.semicolons": "remove",
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "typescript",
+			"autoFix": true
+		},
+		{
+			"language": "typescriptreact",
+			"autoFix": true
+		}
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

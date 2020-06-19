@@ -1,0 +1,15 @@
+{
+	"short_name": "Redondos Energy Management",
+	"name": "Redondos - Celsa Energy Management for ISO 50001",
+	"icons": [
+		{
+			"src": "assets/favicon.png",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/png"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#e93324",
+	"background_color": "#ffffff"
+}

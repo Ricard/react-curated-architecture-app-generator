@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode"
+
+		// "albert.TabOut",
+		// "msjsdiag.debugger-for-chrome",
+		// "rbbit.typescript-hero"
+		// "christian-kohler.path-intellisense"
+		// "eamodio.gitlens"
+	]
+}
